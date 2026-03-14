@@ -21,6 +21,14 @@ export BOT_TOKEN=123:abc
 python -m ozondropbot.main
 ```
 
+## Совместимость со старыми CPU
+
+Если у вас старый процессор (например, AMD Phenom II) и возникает ошибка `illegal hardware instruction python`, установите зависимости из `requirements.txt` (там зафиксированы более совместимые версии `numpy`, `matplotlib`, `seaborn`, `structlog`).
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Структура
 
 - `src/ozondropbot/main.py` — запуск бота.
