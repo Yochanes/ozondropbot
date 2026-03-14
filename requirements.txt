@@ -1,0 +1,7 @@
+aiogram>=3.4.1
+aiosqlite>=0.20.0
+apscheduler>=3.10.4
+matplotlib>=3.8.0
+seaborn>=0.13.0
+structlog>=24.1.0
+python-dotenv>=1.0.1
